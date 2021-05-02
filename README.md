@@ -3,3 +3,5 @@ ansible playbooks for use with regular ansible not ansible pull like the badly n
 
 
 get ready for playbooks
+
+promotion I'm ready promotion 

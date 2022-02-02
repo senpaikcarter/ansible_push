@@ -1,0 +1,11 @@
+---
+- name: update all servers
+  become: true
+  hosts: fedora
+  tasks:
+    dnf:
+      update_cache: yes
+  hosts: ubuntu
+  tasks: 
+    apt:
+      update_cache: yes

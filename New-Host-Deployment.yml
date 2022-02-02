@@ -1,0 +1,9 @@
+---
+- hosts: fedora
+  become: true
+  tasks:  
+  - name: Update Packages    
+    dnf:
+      update_cache: yes
+      name: "*"
+      state: latest

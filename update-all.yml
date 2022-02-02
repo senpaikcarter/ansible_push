@@ -1,0 +1,10 @@
+---
+
+- hosts: fedora
+  become: true
+  tasks:
+  - name: Update Fedora Servers
+    dnf:
+      update_cache: yes
+      update_only: yes
+
